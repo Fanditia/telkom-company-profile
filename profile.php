@@ -15,6 +15,14 @@ require 'includes/header.php';
         <p>Proyek menampilkan profil, program studi, berita, serta formulir kontak. Data program studi dan berita dibaca dari
             database, sedangkan pesan pengguna disimpan menggunakan prepared statement.</p>
         <div class="alert alert-success">Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.</div>
+        <hr style="border: 0; border-top: 1px solid var(--line); margin: 32px 0;">
+        <h2>Fokus Pembelajaran</h2>
+        <p>Dalam praktikum ini, pengembangan skill difokuskan pada tiga pilar utama pengembangan web modern:</p>
+        <ul>
+            <li><strong>Version Control (Git & GitHub):</strong> Mengelola riwayat perubahan kode dan kolaborasi tim.</li>
+            <li><strong>Back-End Development:</strong> Memahami logika server-side menggunakan PHP native dan arsitektur modular.</li>
+            <li><strong>Database Management:</strong> Mengelola penyimpanan data secara dinamis dan aman dengan MySQL.</li>
+        </ul>
     </div>
 </section>
 <?php require 'includes/footer.php'; ?>
